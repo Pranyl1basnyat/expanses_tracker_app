@@ -15,7 +15,7 @@ class ExpenseRepository {
   }
 
   // 3. DELETE an expense
-  void deleteExpense(String id) {
+  void deleteExpense(int id) {
     _expenses.removeWhere((expense) => expense.id == id);
   }
 
